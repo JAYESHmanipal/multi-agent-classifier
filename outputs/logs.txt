@@ -1,0 +1,150 @@
+Thread ID: 094d24b2-f318-4cf2-a2bd-4050ef2bdd2b
+Input: C:/multi-agent-system/inputs/order.json
+Format: json, Intent: unknown
+Result: {'formatted_data': {'order_id': 'ORD-456', 'customer': 'Jane Doe', 'amount': 1000, 'date': '2025-05-29'}, 'anomalies': []}
+--------------------------------------------------
+Thread ID: e8936e7a-2226-4a42-9965-8f91484af2b9
+Input: C:/multi-agent-system/inputs/rfq.eml
+Format: email, Intent: rfq
+Result: {'sender': 'john@example.com', 'intent': 'rfq', 'urgency': 'high', 'subject': ''}
+--------------------------------------------------
+Thread ID: 6a127224-a86e-4436-94a6-e0f316a9deb5
+Input: C:/multi-agent-system/inputs/invoice.pdf
+Format: pdf, Intent: invoice
+Result: {'formatted_data': {'invoice_number': 'Numbwe', 'amount': 123.0, 'date': '2025-05-29'}, 'anomalies': []}
+--------------------------------------------------
+Thread ID: 8e24d2bb-4409-4056-95bb-239ee51abd14
+Input: inputs/order.json
+Format: json, Intent: unknown
+Result: {'formatted_data': {'order_id': 'ORD-456', 'customer': 'Jane Doe', 'amount': 1000, 'date': '2025-05-29'}, 'anomalies': []}
+--------------------------------------------------
+Thread ID: 404247db-2506-4d1a-8705-decb95d89716
+Input: inputs/rfq.eml
+Format: email, Intent: rfq
+Result: {'sender': 'john@example.com', 'intent': 'rfq', 'urgency': 'high', 'subject': 'unknown'}
+--------------------------------------------------
+Thread ID: 837b11a7-e9b0-444c-a70a-9e89b5ff6c23
+Input: inputs/invoice.pdf
+Format: pdf, Intent: invoice
+Result: {'formatted_data': {'invoice_number': 'unknown', 'amount': 500.0, 'date': '2025-05-29'}, 'anomalies': ['Missing field: invoice_number']}
+--------------------------------------------------
+Thread ID: c4ec7b14-1ea6-49de-ad97-15e9684be5d9
+Input: inputs/order.json
+Format: json, Intent: unknown
+Result: {'formatted_data': {'order_id': 'ORD-456', 'customer': 'Jane Doe', 'amount': 1000, 'date': '2025-05-29'}, 'anomalies': []}
+--------------------------------------------------
+Thread ID: def7d2f9-87f2-41d2-914c-4cc701e13bf1
+Input: inputs/rfq.eml
+Format: email, Intent: rfq
+Result: {'sender': 'john@example.com', 'intent': 'rfq', 'urgency': 'high', 'subject': 'unknown'}
+--------------------------------------------------
+Thread ID: f53f2658-e5e6-4ced-b9d0-4e41df06cf7c
+Input: inputs/invoice.pdf
+Format: pdf, Intent: invoice
+Result: {'formatted_data': {'invoice_number': 'unknown', 'amount': 500.0, 'date': '2025-05-29'}, 'anomalies': ['Missing field: invoice_number']}
+--------------------------------------------------
+Thread ID: 493adfac-9bd8-4983-96dc-8749f590ca5e
+Input: inputs/order.json
+Format: json, Intent: unknown
+Result: {'formatted_data': {'order_id': 'ORD-456', 'customer': 'Jane Doe', 'amount': 1000, 'date': '2025-05-29'}, 'anomalies': []}
+--------------------------------------------------
+Thread ID: 564d8531-adfe-4262-995f-72db69339251
+Input: inputs/rfq.eml
+Format: email, Intent: rfq
+Result: {'sender': 'john@example.com', 'intent': 'rfq', 'urgency': 'high', 'subject': 'unknown'}
+--------------------------------------------------
+Thread ID: e909a0d0-efb9-49ea-8a32-dbe1da2feffe
+Input: inputs/invoice.pdf
+Format: pdf, Intent: invoice
+Result: {'formatted_data': {'invoice_number': 'unknown', 'amount': 500.0, 'date': '2025-05-29'}, 'anomalies': ['Missing field: invoice_number']}
+--------------------------------------------------
+Thread ID: b3ab956e-81ae-45fc-b5f4-c82b0e58e7c5
+Input: inputs/order.json
+Format: json, Intent: unknown
+Result: {'formatted_data': {'order_id': 'ORD-456', 'customer': 'Jane Doe', 'amount': 1000, 'date': '2025-05-29'}, 'anomalies': []}
+--------------------------------------------------
+Thread ID: c29fa164-b9a3-4122-8c44-cd65d95b7e4a
+Input: inputs/rfq.eml
+Format: email, Intent: rfq
+Result: {'sender': 'john@example.com', 'intent': 'rfq', 'urgency': 'high', 'subject': 'Request for Quote'}
+--------------------------------------------------
+Thread ID: 6e5d461c-78e1-4400-a7a5-c02cadeaf673
+Input: inputs/invoice.pdf
+Format: pdf, Intent: invoice
+Result: {'formatted_data': {'invoice_number': 'unknown', 'amount': 500.0, 'date': '2025-05-29'}, 'anomalies': ['Missing field: invoice_number']}
+--------------------------------------------------
+Thread ID: 07f91232-f223-4670-bcd1-3d653bdcd722
+Input: inputs/order.json
+Format: json, Intent: invoice
+Result: {'formatted_data': {'order_id': 'ORD-456', 'customer': 'Jane Doe', 'amount': 1000, 'date': '2025-05-29'}, 'anomalies': []}
+--------------------------------------------------
+Thread ID: f7bdefbf-1803-4397-83e3-40b9e80b48c8
+Input: inputs/rfq.eml
+Format: email, Intent: query
+Result: {'sender': 'john@example.com', 'intent': 'rfq', 'urgency': 'high', 'subject': 'Request for Quote'}
+--------------------------------------------------
+Thread ID: 15db1875-b9e0-41f3-8162-b8e661722580
+Input: inputs/invoice.pdf
+Format: pdf, Intent: unknown
+Result: {'formatted_data': {'invoice_number': 'unknown', 'amount': 500.0, 'date': '2025-05-29'}, 'anomalies': ['Missing field: invoice_number']}
+--------------------------------------------------
+Thread ID: f0642ca7-178f-4292-9be1-da8c83178162
+Input: inputs/order.json
+Format: json, Intent: invoice
+Result: {'formatted_data': {'order_id': 'ORD-456', 'customer': 'Jane Doe', 'amount': 1000, 'date': '2025-05-29'}, 'anomalies': []}
+--------------------------------------------------
+Thread ID: ebef4dc5-5277-4163-bda3-c9370d0fab06
+Input: inputs/rfq.eml
+Format: email, Intent: query
+Result: {'sender': 'john@example.com', 'intent': 'rfq', 'urgency': 'high', 'subject': 'Request for Quote'}
+--------------------------------------------------
+Thread ID: facc0e50-f7c8-4e3e-b1d7-4747b8b7dba5
+Input: inputs/invoice.pdf
+Format: pdf, Intent: invoice
+Result: {'formatted_data': {'invoice_number': 'unknown', 'amount': 500.0, 'date': '2025-05-29'}, 'anomalies': ['Missing field: invoice_number']}
+--------------------------------------------------
+Thread ID: ad1b059d-5238-4973-ad95-f36f7ed76b14
+Input: inputs/order.json
+Format: json, Intent: invoice
+Result: {'formatted_data': {'order_id': 'ORD-456', 'customer': 'Jane Doe', 'amount': 1000, 'date': '2025-05-29'}, 'intent': 'invoice', 'anomalies': ['Potential contextual anomaly']}
+--------------------------------------------------
+Thread ID: 9f9ec768-805b-4193-9e4a-b2ae3401c417
+Input: inputs/rfq.eml
+Format: email, Intent: query
+Result: {'sender': 'john@example.com', 'intent': 'query', 'urgency': 'high', 'subject': 'Request for Quote'}
+--------------------------------------------------
+Thread ID: eaba353f-108a-4c17-9763-cee2a89b17f7
+Input: inputs/invoice.pdf
+Format: pdf, Intent: invoice
+Result: {'formatted_data': {'invoice_number': 'Numbwe:INV-123', 'amount': 'Invoice Numbwe:INV-123 Amount: $500 Date: 2025-05-29 From: Acme Corp', 'date': 'Numbwe:INV-123 Amount: $500 Date: 2025-05-29 From: Acme Corp'}, 'anomalies': []}
+--------------------------------------------------
+Thread ID: fe80a75f-0c72-4c38-aaa4-ff7ce469be6e
+Input: inputs/order.json
+Format: json, Intent: invoice
+Result: {'formatted_data': {'order_id': 'ORD-456', 'customer': 'Jane Doe', 'amount': 1000, 'date': '2025-05-29'}, 'intent': 'invoice', 'anomalies': ['Potential contextual anomaly']}
+--------------------------------------------------
+Thread ID: 4b066293-b0a0-4261-9b9f-bb1eb643907f
+Input: inputs/rfq.eml
+Format: email, Intent: query
+Result: {'sender': 'john@example.com', 'intent': 'query', 'urgency': 'high', 'subject': 'Request for Quote'}
+--------------------------------------------------
+Thread ID: dfd17bba-a609-4ea5-ac85-66fd052aff07
+Input: inputs/invoice.pdf
+Format: pdf, Intent: invoice
+Result: {'formatted_data': {'invoice_number': 'Numbwe:INV-123', 'amount': 'Invoice Numbwe:INV-123 Amount: $500 Date: 2025-05-29 From: Acme Corp', 'date': 'Numbwe:INV-123 Amount: $500 Date: 2025-05-29 From: Acme Corp'}, 'anomalies': []}
+--------------------------------------------------
+Thread ID: d57ca3b9-d339-435b-9727-122c6d7ab530
+Input: inputs/order.json
+Format: json, Intent: invoice
+Result: {'formatted_data': {'order_id': 'ORD-456', 'customer': 'Jane Doe', 'amount': 1000, 'date': '2025-05-29'}, 'intent': 'invoice', 'anomalies': ['Potential contextual anomaly']}
+--------------------------------------------------
+Thread ID: 667488d7-2a6b-4681-9448-abd96b58aa49
+Input: inputs/rfq.eml
+Format: email, Intent: query
+Result: {'sender': 'john@example.com', 'intent': 'query', 'urgency': 'high', 'subject': 'Request for Quote'}
+--------------------------------------------------
+Thread ID: 0e2b3761-6f0f-4bce-a0f9-91d47b6a9d52
+Input: inputs/invoice.pdf
+Format: pdf, Intent: invoice
+Result: {'formatted_data': {'invoice_number': 'Numbwe:INV-123', 'amount': 'Invoice Numbwe:INV-123 Amount: $500 Date: 2025-05-29 From: Acme Corp', 'date': 'Numbwe:INV-123 Amount: $500 Date: 2025-05-29 From: Acme Corp'}, 'anomalies': []}
+--------------------------------------------------
