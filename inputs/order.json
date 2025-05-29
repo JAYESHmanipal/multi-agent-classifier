@@ -1,0 +1,10 @@
+{
+      "order_id": "ORD-456",
+      "customer": "Jane Doe",
+      "amount": 1000,
+      "date": "2025-05-29",
+      "items": [
+        {"name": "Widget", "quantity": 10},
+        {"name": "Gadget", "quantity": 5}
+      ]
+    }
