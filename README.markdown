@@ -13,26 +13,12 @@ The system processes input files, logs results to `outputs/logs.txt`, and saves 
 
 ## Folder Structure
 ```
-multi-agent-system/
-├── inputs/
-│   ├── order.json        # Sample JSON file (order data)
-│   ├── rfq.eml           # Sample email file (request for quote)
-│   ├── invoice.pdf       # Sample PDF file (invoice)
-├── outputs/
-│   ├── logs.txt          # Output logs from processing
-├── src/
-│   ├── classifier.py     # Classifier Agent to identify file format and intent
-│   ├── email_agent.py    # Email Agent to process .eml files
-│   ├── json_agent.py     # JSON Agent to process .json files
-│   ├── main.py           # Main script to orchestrate the agents
-│   ├── memory.py         # Shared Memory implementation using SQLite
-│   ├── pdf_agent.py      # PDF Agent to process .pdf files
-│   ├── query_memory.py   # Utility script to query memory.db
-│   ├── test_regex.py     # Utility script to test regex for email parsing
-│   ├── extract_pdf_text.py # Utility script to extract text from invoice.pdf
-├── demo.mp4              # Video demo of the project
-├── README.md             # Project documentation
-├── .gitignore            # Git ignore file to exclude unnecessary files
+<pre> ``` multi-agent-system/
+├── inputs/ │ ├── order.json # Sample JSON file (order data) │ ├── rfq.eml # Sample email file (request for quote) │ ├── invoice.pdf # Sample PDF file (invoice)
+├── outputs/ │ ├── logs.txt # Output logs from processing
+├── src/ │ ├── classifier.py # Classifier Agent to identify file format and intent │ ├── email_agent.py # Email Agent to process .eml files │ ├── json_agent.py # JSON Agent to process .json files │ ├── main.py # Main script to orchestrate the agents │ ├── memory.py # Shared Memory implementation using SQLite │ ├── pdf_agent.py # PDF Agent to process .pdf files │ ├── query_memory.py # Utility script to query memory.db │  
+├── README.md # Project documentation
+├── .gitignore # Git ignore file to exclude unnecessary files ``` </pre>
 ```
 
 ## Prerequisites
